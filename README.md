@@ -49,15 +49,18 @@ This is a simple and interactive **CGPA (Cumulative Grade Point Average) Calcula
 ## 📦 How to Run
 
 1. **Copy** the `CGPA Calculator` C++ code into a `.cpp` file (e.g., `cgpa_calculator.cpp`).
-2. **Compile** the file using a C++ compiler:
-   ```bash
+2. Compile the file using a C++ compiler:
+
 On Windows (using g++):
-'g++ cgpa_calculator.cpp -o cgpa_calculator'
+```bash
+   g++ cgpa_calculator.cpp -o cgpa_calculator
+   ```
 
 On Linux/Mac:
-g++ cgpa_calculator.cpp -o cgpa_calculator
-
+```bash
+   g++ cgpa_calculator.cpp -o cgpa_calculator
    ```
+
 3. **Run** the executable:
    ```bash
    ./cgpa_calculator
