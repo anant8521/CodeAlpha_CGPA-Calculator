@@ -51,7 +51,12 @@ This is a simple and interactive **CGPA (Cumulative Grade Point Average) Calcula
 1. **Copy** the `CGPA Calculator` C++ code into a `.cpp` file (e.g., `cgpa_calculator.cpp`).
 2. **Compile** the file using a C++ compiler:
    ```bash
-   g++ cgpa_calculator.cpp -o cgpa_calculator
+On Windows (using g++):
+'g++ cgpa_calculator.cpp -o cgpa_calculator'
+
+On Linux/Mac:
+g++ cgpa_calculator.cpp -o cgpa_calculator
+
    ```
 3. **Run** the executable:
    ```bash
@@ -87,9 +92,9 @@ Credit Hours: 5
 📋 Course-wise Grade Summary:
 -----------------------------------------
   No.        Course Name     Grade   Credits
-    1          Mathematics       A         4
-    2               Physics      B+         3
-    3           Programming     A+         5
+    1          Mathematics     A       4
+    2          Physics         B+      3
+    3          Programming     A+      5
 -----------------------------------------
 🎯 Total Credits: 12.00
 🌟 Total Grade Points: 110.00
@@ -114,8 +119,4 @@ Credit Hours: 5
 📍 Government Polytechnic, Munger  
 🧠 Focus: Coding, Logic, and Engineering Applications
 
----
 
-## 📜 License
-
-This project is open-source and available under the [MIT License](https://opensource.org/licenses/MIT).
